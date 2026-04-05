@@ -20,3 +20,25 @@ button {
   margin-top: 20px;
   font-size: 20px;
 }
+.bar-container {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.bar {
+  height: 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.positive {
+  background: #22c55e;
+}
+
+.negative {
+  background: #ef4444;
+}
+
+.neutral {
+  background: #facc15;
+}
