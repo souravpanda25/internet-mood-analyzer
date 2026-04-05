@@ -10,4 +10,7 @@ function analyzeMood() {
     "😊 Positive: " + positive + "%<br>" +
     "😡 Negative: " + negative + "%<br>" +
     "😐 Neutral: " + neutral + "%";
+  document.getElementById("positiveBar").style.width = positive + "%";
+document.getElementById("negativeBar").style.width = negative + "%";
+document.getElementById("neutralBar").style.width = neutral + "%";
 }
